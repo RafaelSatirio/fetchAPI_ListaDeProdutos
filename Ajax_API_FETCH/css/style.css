@@ -1,0 +1,27 @@
+/* style.css */
+
+/* Estilos para a tabela */
+#itemTable{
+    border-collapse: collapse;
+    width: 100%;
+    background: #ffffff;
+    margin-top: 5%;
+}
+
+#itemTable th, #itemTable td{
+    border: 1px solid #00FFFF;
+    padding: 8px;
+    text-align: center;
+}
+
+#itemTable th{
+    background-color: #00FFFF;
+}
+
+#itemTable tr:nth-child(even){
+    background-color: #00CED1;
+}
+
+#itemTable tr:hover{
+    background-color:#9bedf8;
+}
